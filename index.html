@@ -29,15 +29,19 @@
   </header>
   <div id="background-area"></div>
 
+<div class="container">
+<div class="row">
   <div id="main-visual">
-    <div class="img-area">
-      <img src="./resource/img/main-visual.png" />
+    <div class="img-area col-md-8 col-md-offset-2">
+      <img src="./resource/img/main-visual.png" class="img-responsive center-block"/>
     </div>
     <!-- <img class="logo-img" src="./resource/img/logo.jpg" alt="ロゴ" />
     <div class="date">
       ６月〇〇日＠視聴覚室
     </div> -->
   </div>
+</div>
+</div>
   <div id="main-contents-area">
     <div class="container">
       <div id="news" class="col-md-12 section-box">
@@ -116,24 +120,28 @@
 
       <div id="gallery" class="col-md-12 section-box">
         <div class="row">
-          <h2 class="col-md-12 title">
-            Gallery
-          </h2>
-          <h2 class="col-md-12 title-hover">
-            ギャラリー
-          </h2>
+          <div class="col-md-12">
+            <h2 class="title">
+              Gallery
+            </h2>
+            <h2 class="col-md-12 title-hover">
+              ギャラリー
+            </h2>
+          </div>
         </div>
         <div class="row">
-          <div id="slide-show-area">
-            <!-- スライドショー -->
-            <div class="first">
-              <img src="./resource/img/gallery/1.png" />
-            </div>
-            <div class="sencond">
-              <img src="./resource/img/gallery/2.png" />
-            </div>
-            <div class="third">
-              <img src="./resource/img/gallery/3.png" />
+          <div class="col-md-12">
+            <div class="bxslider" >
+              <!-- スライドショー -->
+              <div class="first">
+                <img src="./resource/img/gallery/1.png" title="タイトル１"/>
+              </div>
+              <div class="sencond">
+                <img src="./resource/img/gallery/2.png" title="title2"/>
+              </div>
+              <div class="third">
+                <img src="./resource/img/gallery/3.png" title="TITLE3"/>
+              </div>
             </div>
           </div>
         </div>
@@ -171,7 +179,20 @@
   <script src="./resource/jquery/jquery-3.1.1.min.js"></script>
   <!-- Include bootstrap-3 -->
   <script src="./resource/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+  <!-- bxSlider Javascript file -->
+  <script src="./resource/jquery.bxslider/jquery.bxslider.min.js"></script>
+  <!-- bxSlider CSS file -->
+  <link href="./resource/jquery.bxslider/jquery.bxslider.css" rel="stylesheet" />
   <script src="./resource/js/background.js"></script>
+  <script>
+  $(document).ready(function(){
+    $('.bxslider').bxSlider({
+      captions: true,
+      pager: false,
+      auto: true,
+    });
+  });
+  </script>
 </body>
 
 </html>

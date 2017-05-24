@@ -37,21 +37,22 @@ header{
 #main-visual{
   margin-top: 60px;
   width: 100%;
-  height: 600px;
+  max-height: 600px;
   /*background-image: url('../img/main-visual.jpg');*/
 }
 #main-visual .img-area{
-  width: 100%;
-  height: 600px;
+  /*width: 100%;
+  max-height: 600px;
   z-index: 1;
   display:-webkit-flex;/*--- safari（PC）用 ---*/
-  display:flex;
-  -webkit-justify-content: center;/*--- safari（PC）用 ---*/
-  justify-content: center;
+  /*display:flex;
+  -webkit-justify-content: center;/*--- safari（PC）用 ---
+  justify-content: center;*/
 }#main-visual .img-area img{
-  width: auto;
-  height: 600px;
-  overflow: hidden;
+  /*max-width: 680px;
+  width: 100%;
+  height: auto;*/
+  /*overflow: hidden;*/
 }
 #main-visual .logo-img{
   height: 50px;
@@ -140,14 +141,21 @@ header{
 
 #gallery{
 }
-#sldie-show-area{
-  width: 100%;
-}
-#slide-show-area > div{
-  width: 60%;
+#gallery > .bxslider > div{
+  /*https://blog.mismithportfolio.com/web/20151027cssimageplace#d*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 #gallery img{
-  height: 100%;
+  width: auto;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  max-height: 400px;
 }
 
 
