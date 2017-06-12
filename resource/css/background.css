@@ -1,0 +1,52 @@
+#background-area{
+  z-index: -1;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background: white;
+  height: 100%;
+  width: 100%;
+}
+@-webkit-keyframes rotate-anime {
+  0% {
+    transform: scale(0.1) rotate(0deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2) rotate(200deg);
+    opacity: 0;
+  }
+}
+.bar{
+  position: fixed;
+  height: 900px;
+  width: 10px;
+  opacity: 0;
+  -webkit-animation:'rotate-anime' 5s linear 0s alternate none running;
+}
+.triangle{
+  position: fixed;
+  height: 300px;
+  transform: rotate(20deg);
+  opacity: 0;
+  -webkit-animation:'rotate-anime' 5s linear 0s alternate none running;
+}
+.circle{
+  position: fixed;
+  height: 300px;
+  opacity: 0;
+  -webkit-animation:'rotate-anime' 5s linear 0s alternate none running;
+}
+.rect{
+  position: fixed;
+  height: 300px;
+  transform: rotate(40deg);
+  opacity: 0;
+  -webkit-animation:'rotate-anime' 5s linear 0s alternate none running;
+}
