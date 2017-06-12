@@ -27,7 +27,22 @@
       <a href="#gallery"><div class="icon gallery">Gallery</div></a>
     </div>
   </header>
-  <div id="background-area"></div>
+  <div id="background-area" class="container row">
+    <div class="col-md-12">
+    <div class="layer1 rellax" data-rellax-speed="-10">
+      <img src="./resource/img/circle.svg" class="circle" style="left:76%;top:0px" />
+      <img src="./resource/img/circle.svg" class="circle" style="left:52%;top:89%" />
+      <img src="./resource/img/circle.svg" class="circle" style="left:63%;top:14%" />
+      <img src="./resource/img/circle.svg" class="circle" style="left:68%;top:51%" />
+      <img src="./resource/img/circle.svg" class="circle" style="left:38%;top:84%" />
+    </div>
+    <div class="layer2 rellax" data-rellax-speed="-5"></div>
+    <div class="layer3 rellax" data-rellax-speed="0"></div>
+    <div class="layer4 rellax" data-rellax-speed="5"></div>
+    <div class="layer5 rellax" data-rellax-speed="10"></div>
+    <!-- <img src="./resource/img/circle.svg" class="circle rellax" data-rellax-speed="2" style="left:200px;top:100px;" /> -->
+  </div>
+  </div>
 
 <div class="container">
 <div class="row">
@@ -183,6 +198,8 @@
   <script src="./resource/jquery.bxslider/jquery.bxslider.min.js"></script>
   <!-- bxSlider CSS file -->
   <link href="./resource/jquery.bxslider/jquery.bxslider.css" rel="stylesheet" />
+  <!-- Include rellax js -->
+  <script src="./resource/rellax/rellax.js"></script>
   <script src="./resource/js/background.js"></script>
   <script>
   $(document).ready(function(){
@@ -192,6 +209,16 @@
       auto: true,
     });
   });
+  </script>
+  <script>
+    $(function(){
+      var rellax = new Rellax('.rellax', {
+        // center: true
+        speed: -2,
+        center: false,
+        round: true,
+      });
+    });
   </script>
 </body>
 
