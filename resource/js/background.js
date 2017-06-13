@@ -43,7 +43,7 @@ $(function(){
     };
 
     let appendEle = '#background-area div.layer' + randInt(5,1);
-    $(elements).appendTo(appendEle);
+    $(elements).appendTo(appendEle)
     if(count > 20){
       $('#background-area > img:first').remove();
       count = 1
