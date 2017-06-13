@@ -90,10 +90,9 @@ header{
 
 #news{
 }
-#news table{
+/*#news table{
   border-collapse: collapse;
   box-sizing: border-box;
-  /*border: solid 1px black;*/
   width: 100%;
 }
 #news table tr{
@@ -109,10 +108,9 @@ header{
   padding-right: 5px;
   max-width: 10px;
   text-align: center;
-  /*color: rgb(156, 156, 156);*/
   font-family: 'Roboto', light;
   font-size: 0.8em;
-}
+}*/
 
 #about{
 }
