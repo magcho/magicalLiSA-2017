@@ -166,3 +166,12 @@ footer{
   background: rgb(115, 115, 115);
   text-align: center;
 }
+
+
+/* 個別ページ用共通スタイル */
+.page-title{
+  font-weight: bold;
+}
+.page-sub-title{
+  font-weight: normal;
+}
