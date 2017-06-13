@@ -1,0 +1,16 @@
+.info-title{
+  /*下のP要素の親のDIV要素*/
+}
+.info-title > p{
+  display: block;
+  background-color: rgb(255, 79, 211);
+  border-radius: 10px;
+  height: 30px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 30px;
+  font-size: 2em;
+}
+.info-body{
+  font-size: 1.3em;
+}
