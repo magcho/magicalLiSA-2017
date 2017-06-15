@@ -112,7 +112,7 @@ header{
   box-sizing: border-box;
   height: 50px;
   /*border: solid 1px black;*/
-  font-size: 3em;
+  /*font-size: 3em;*/
 }
 #main-contents-area .title-hover{
   display: none;
@@ -150,7 +150,7 @@ header{
 #about .title{
 }
 #about .text{
-  margin-top: 50px;
+  /*margin-top: 50px;*/
   /*border: solid 1px black;*/
 }
 
@@ -199,6 +199,7 @@ footer{
 /* 個別ページ用共通スタイル */
 .page-title{
   font-weight: bold;
+  font-size: 5em;
 }
 .page-sub-title{
   font-weight: normal;
