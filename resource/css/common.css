@@ -1,3 +1,37 @@
+/*bxslider costom  style*/
+.bx-wrapper{
+  box-shadow: none;
+}
+
+
+/*animation*/
+@-webkit-keyframes rotate-icon {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes hover-icon {
+  100%{
+    background: rgba(18, 126, 0, 0.39);
+  }
+}
+
+
+/*font*/
+.font-Orbitron{
+  font-family: 'Orbitron', sans-serif;
+}
+.font-roboto{
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/*style*/
+
+
 header{
   z-index: 1;
   position: fixed;
@@ -5,6 +39,18 @@ header{
   background: rgba(36, 255, 0, 0.39);
   width: 100%;
   top:0px;
+}
+.header-bar .icon:hover{
+  /*float: left;*/
+  background: rgba(30, 194, 3, 0.38);
+}
+.header-bar .button-text{
+  /*font-weight: bold;*/
+  font-size: 1.5em;
+  color:black;
+}
+.header-bar .icon{
+  margin-bottom: 0px;
 }
 
 .header-bar #header-logo{
