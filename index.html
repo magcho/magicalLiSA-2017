@@ -7,26 +7,69 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <!-- <link rel="stylesheet" href="./resource/font-awesome/css/font-awesome.min.css"> -->
   <link rel="stylesheet" href="./resource/css/index.css" />
+  <link rel="stylesheet" href="./resource/css/common.css" />
   <!-- include Bootstrap -->
   <link href="./resource/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="./resource/css/background.css" />
   <!-- include google-fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,700" rel="stylesheet">
-  <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css?family=Orbitron|Roboto:300,700" rel="stylesheet">
 </head>
 
 <body>
   <header>
-    <div id="header-ber">
-      <div class="logo">
-        <img src="./resource/img/logo.jpg" />
+    <div class="container-fluid">
+      <div class="row header-bar">
+        <!-- <div id="header-ber"> -->
+          <div class="col-md-3 hidden-sm hidden-xs">
+            <img src="./resource/img/logo.jpg" class="center-block" id="header-logo"/>
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              <a href="#news">
+                <div class="icon news col-md-3 hidden-sm hidden-xs">
+                  <img class="center-block" src="./resource/img/icon/information-button.svg" />
+                  <div class="text-center button-text font-Orbitron">
+                    News
+                  </div>
+                </div>
+              </a>
+
+              <a href="#about">
+                <div class="icon about col-md-3 hidden-sm hidden-xs">
+                  <img class="center-block" src="./resource/img/icon/star.svg" />
+                  <div class="text-center button-text font-Orbitron">
+                    About
+                  </div>
+                </div>
+              </a>
+
+              <a href="#live">
+                <div class="icon live col-md-3 hidden-sm hidden-xs">
+                  <img class="center-block" src="./resource/img/icon/microphone.svg" />
+                  <div class="text-center button-text font-Orbitron">
+                    Live
+                  </div>
+                </div>
+              </a>
+
+              <a href="#gallery">
+                <div class="icon gallery col-md-3 hidden-sm hidden-xs">
+                  <img class="center-block" src="./resource/img/icon/gallery.png" />
+                  <div class="text-center button-text font-Orbitron">
+                    Gallery
+                  </div>
+                </div>
+              </a>
+          </div>
+          </div>
+        <!-- </div> -->
       </div>
-      <a href="#news"><div class="icon news">News</div></a>
-      <a href="#about"><div class="icon about">About</div></a>
-      <a href="#live"><div class="icon live">Live</div></a>
-      <a href="#gallery"><div class="icon gallery">Gallery</div></a>
     </div>
   </header>
+
+
+
+
   <div id="background-area" class="container row">
     <div class="col-md-12">
     <div class="layer1 rellax" data-rellax-speed="-10">
@@ -61,7 +104,7 @@
     <div class="container">
       <div id="news" class="col-md-12 section-box">
         <div class="row">
-          <h2 class="title col-md-2">
+          <h2 class="title col-md-2 font-Orbitron">
             NEWS
           </h2>
           <h2 class="title-hover col-md-2">
@@ -101,7 +144,7 @@
             <img src="./resource/img/img.png" />
           </div>
           <div class="col-md-8">
-            <h2 class="title">
+            <h2 class="title font-Orbitron">
               About
             </h2>
             <h2 class="title-hover">
@@ -118,7 +161,7 @@
       <div id="live" class="col-md-12 section-box">
         <div class="row">
           <div class="col-md-8">
-            <h2 class="title">
+            <h2 class="title font-Orbitron">
               Live
             </h2>
             <h2 class="title-hover">
@@ -137,7 +180,7 @@
       <div id="gallery" class="col-md-12 section-box">
         <div class="row">
           <div class="col-md-12">
-            <h2 class="title">
+            <h2 class="title font-Orbitron">
               Gallery
             </h2>
             <h2 class="col-md-12 title-hover">
@@ -200,6 +243,7 @@
   <!-- bxSlider CSS file -->
   <link href="./resource/jquery.bxslider/jquery.bxslider.css" rel="stylesheet" />
   <script src="./resource/js/background.js"></script>
+  <!-- <script src="./resource/js/index.js"></script> -->
   <script>
   $(document).ready(function(){
     $('.bxslider').bxSlider({
