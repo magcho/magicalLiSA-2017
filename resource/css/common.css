@@ -63,6 +63,31 @@ header{
   max-height: 45px;
 }
 
+/*mobile header*/
+
+#header-mo{
+  background: white;
+  border-bottom: solid 1px #ededed;
+}
+#header-mo button{
+  background: white;
+  border:solid 1px rgb(117, 117, 117);
+}
+#header-mo button span{
+  border-bottom:  solid 2px rgb(117, 117, 117);
+}
+#header-mo li{
+  font-size: 1.3em;
+  margin-left: 2em;
+  border-bottom: solid 1px rgb(117, 117, 117);
+}
+#header-mo img{
+  height: 50px;
+  width: auto;
+  position: fixed;
+  top:0px;
+}
+
 
 
 #main-visual{
@@ -193,6 +218,7 @@ header{
 footer{
   background: rgb(115, 115, 115);
   text-align: center;
+  margin-bottom: 0px;
 }
 
 

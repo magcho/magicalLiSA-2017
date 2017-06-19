@@ -29,3 +29,8 @@ h2.title{
   line-height: 2em;
   color: rgb(39, 128, 165);
 }
+
+
+.bx-wrapper .bx-controls-direction a{
+  z-index: 4!important;
+}
