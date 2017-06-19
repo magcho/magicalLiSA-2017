@@ -1,6 +1,23 @@
 .staff-box .name{
   font-weight: bold;
+  font-size: 1.5em;
+}
+.staff-box .name#mobile{
+  font-size: 2em;
 }
 .staff-box .comment{
   line-height: 1.6em;
+}
+.aboutsection-title{
+  font-size: 3em;
+}
+.staff-box{
+  padding-bottom: 3em;
+  border-bottom: solid 5px #e7e0e0;
+}
+.staff-box:last-child{
+  border:none;
+}
+.font-mplus1p {
+  font-family: "Mplus 1p";
 }

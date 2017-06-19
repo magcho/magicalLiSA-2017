@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <title>マジカルLiSA</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- <link rel="stylesheet" href="./resource/font-awesome/css/font-awesome.min.css"> -->
   <link rel="stylesheet" href="./resource/css/about.css" />
   <link rel="stylesheet" href="./resource/css/common.css" />
@@ -13,10 +14,34 @@
   <link rel="stylesheet" href="./resource/css/background.css" />
   <!-- include google-fonts -->
   <link href="https://fonts.googleapis.com/css?family=Orbitron|Roboto:300,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/earlyaccess/mplus1p.css" rel="stylesheet" />
 </head>
 
 <body>
-  <header>
+  <nav class="navbar  navbar-fixed-top hidden-md hidden-lg" id="header-mo">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#gnavi">
+      <span class="sr-only">メニュー</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+  </div>
+  <div>
+    <a href="./" ><img src="./resource/img/logo-re.jpg"  /></a>
+  </div>
+  <div id="gnavi" class="collapse navbar-collapse">
+    <ul class="nav navbar-nav">
+      <li class="font-Orbitron"><a href="./">Home</a></li>
+      <li class="font-Orbitron"><a href="./news.html">News</a></li>
+      <li class="font-Orbitron"><a href="./about.html">About</a></li>
+      <li class="font-Orbitron"><a href="./live.html">Live</a></li>
+      <li class="font-Orbitron"><a href="./gallery.html">Gallery</a></li>
+    </ul>
+  </div>
+</nav>
+
+  <header class="hidden-sm hidden-xs">
     <div class="container-fluid">
       <div class="row header-bar">
         <!-- <div id="header-ber"> -->
@@ -93,76 +118,92 @@
       </div>
       <div class="section-box col-md-offset-1 col-md-10">
         <div class="row">
-          <h2 class="text-center">Staff</h2>
+          <h2 class="text-center font-Orbitron aboutsection-title">Staff</h2>
         </div>
         <div class="row">
-          <div class="staff-box col-md-3">
+
+          <div class="staff-box col-md-4">
             <div class="col-md-10 col-md-offset-1">
               <div class="row">
-                <img src="./resource/img/staff/sample.jpg" class="img-fluid staff-icon col-md-12 img-circle center-block"/>
+                <p class="text-center name font-mplus1p hidden-lg hidden-md" id="mobile">MagCho</p>
               </div>
               <div class="row">
-                <p class="text-center name">MagCho</p>
+                <img src="./resource/img/staff/sample.jpg" class="img-responsive staff-icon col-md-12 col-sm-12 img-circle center-block"/>
               </div>
               <div class="row">
-                <p>担当：HP・スクリーン・機材</p>
+                <p class="text-center name font-mplus1p hidden-sm hidden-xs" id="pc">MagCho</p>
               </div>
               <div class="row">
-                <p class="comment">一言：毎朝、僕が登校する時に柴犬を連れて散歩しているおばあさんを見かけます。話を聞くところによると、その柴犬はとてもいい子で
-                毎朝おばあさんが起きる時間になると枕元に来てくれたり、決まった時間になったら自分でリードをくわえて走って来たりと。さらには散歩中に
-                おばあさんが疲れてくると近くのベンチまで案内してくれるんだそう。それはおばあさんが散歩されているのでは？</p>
+                <p>担当：HP・スクリーン</p>
               </div>
               <div class="row">
-                <div class="col-md-4 col-xs-4">
+                <p>所属：LBT</p>
+              </div>
+              <div class="row">
+                <p class="comment">
+                  コメント：電車の中で機材の取説を読みながら登校したりする、ごく普通の高校生。
+                  首都圏の雪の降らない、都会と田舎の中間の都市から電車通学してます。
+                </p>
+              </div>
+              <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-4">
                   <img src="./resource/img/icon/twitter-logo.svg" class="img-responsive" />
                 </div>
-                <div class="col-md-4 col-xs-4">
+                <div class="col-md-4 col-sm-4 col-xs-4">
                   <img src="./resource/img/icon/niconico.svg" class="img-responsive" />
                 </div>
-                <div class="col-md-4 col-xs-4">
-                  <img src="./resource/img/icon/github-sign.svg" class="img-responsive" />
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="staff-box col-md-3">
-            <div class="col-md-10 col-md-offset-1">
-              <div class="row">
-                <img src="./resource/img/staff/sample.jpg" class="img-fluid staff-icon col-md-12 img-circle center-block"/>
-              </div>
-              <div class="row">
-                <p class="text-center name">MagCho</p>
-              </div>
-              <div class="row">
-                <p>担当：HP・スクリーン・機材</p>
-              </div>
-              <div class="row">
-                <p class="comment">一言：毎朝、僕が登校する時に柴犬を連れて散歩しているおばあさんを見かけます。話を聞くところによると、その柴犬はとてもいい子で
-                毎朝おばあさんが起きる時間になると枕元に来てくれたり、決まった時間になったら自分でリードをくわえて走って来たりと。さらには散歩中に
-                おばあさんが疲れてくると近くのベンチまで案内してくれるんだそう。それはおばあさんが散歩されているのでは？</p>
-              </div>
-              <div class="row">
-                <div class="col-md-4">
-                  <img src="./resource/img/icon/twitter-logo.svg" class="img-responsive" />
-                </div>
-                <div class="col-md-4">
-                  <img src="./resource/img/icon/niconico.svg" class="img-responsive" />
-                </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-4 col-xs-4">
                   <img src="./resource/img/icon/github-sign.svg" class="img-responsive" />
                 </div>
               </div>
             </div>
           </div><!-- staff-box close -->
 
+          <div class="staff-box col-md-4">
+            <div class="col-md-10 col-md-offset-1">
+              <div class="row">
+                <p class="text-center name font-mplus1p hidden-lg hidden-md" id="mobile">MagCho</p>
+              </div>
+              <div class="row">
+                <img src="./resource/img/staff/sample.jpg" class="img-responsive staff-icon col-md-12 col-sm-12 img-circle center-block"/>
+              </div>
+              <div class="row">
+                <p class="text-center name font-mplus1p hidden-sm hidden-xs" id="pc">MagCho</p>
+              </div>
+              <div class="row">
+                <p>担当：HP・スクリーン</p>
+              </div>
+              <div class="row">
+                <p>所属：LBT</p>
+              </div>
+              <div class="row">
+                <p class="comment">
+                  コメント：電車の中で機材の取説を読みながら登校したりする、ごく普通の高校生。
+                  首都圏の雪の降らない、都会と田舎の中間の都市から電車通学してます。
+                </p>
+              </div>
+              <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                  <img src="./resource/img/icon/twitter-logo.svg" class="img-responsive" />
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                  <img src="./resource/img/icon/niconico.svg" class="img-responsive" />
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                  <img src="./resource/img/icon/github-sign.svg" class="img-responsive" />
+                </div>
+              </div>
+            </div>
+          </div><!-- staff-box close -->
+
+
+
         </div>
       </div><!-- section-box close -->
 
       <div class="col-md-10 col-md-offset-1 section-box">
         <div class="row">
-          <h2 class="titile col-md-12 text-center">Special Thanks</h2>
+          <h2 class="text-center font-Orbitron aboutsection-title">Special Thanks</h2>
         </div>
         <div class="row">
           <div class="col-md-6">

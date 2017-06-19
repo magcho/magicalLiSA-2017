@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <title>マジカルLiSA</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- <link rel="stylesheet" href="./resource/font-awesome/css/font-awesome.min.css"> -->
   <link rel="stylesheet" href="./resource/css/index.css" />
   <link rel="stylesheet" href="./resource/css/common.css" />
@@ -16,8 +17,31 @@
 </head>
 
 <body>
-  <header>
-    <div class="container-fluid">
+  <nav class="navbar  navbar-fixed-top hidden-md hidden-lg" id="header-mo">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#gnavi">
+      <span class="sr-only">メニュー</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+  </div>
+  <div>
+    <a href="./" ><img src="./resource/img/logo-re.jpg"  /></a>
+  </div>
+  <div id="gnavi" class="collapse navbar-collapse">
+    <ul class="nav navbar-nav">
+      <li class="font-Orbitron"><a href="./">Home</a></li>
+      <li class="font-Orbitron"><a href="./news.html">News</a></li>
+      <li class="font-Orbitron"><a href="./about.html">About</a></li>
+      <li class="font-Orbitron"><a href="./live.html">Live</a></li>
+      <li class="font-Orbitron"><a href="./gallery.html">Gallery</a></li>
+    </ul>
+  </div>
+</nav>
+
+  <header class="hidden-sm hidden-xs">
+    <div class="container-fluid hidden-sm hidden-xs">
       <div class="row header-bar">
         <!-- <div id="header-ber"> -->
         <a href="./">
@@ -29,8 +53,11 @@
           <div class="row">
 
             <a href="./">
-              <div class="icon hidden-md hidden-lg col-sm-4 col-xs-4">
-                <img src="./resource/img/logo.jpg" class="center-block" id="header-logo" />
+              <div class="icon home hidden-lg hidden-md col-sm-2 col-xs-2 col-sm-offset-1 col-xs-offset-1">
+                <img class="center-block" src="./resource/img/icon/home.svg" />
+                <div class="text-center button-text font-Orbitron">
+                  Home
+                </div>
               </div>
             </a>
 
@@ -151,9 +178,6 @@
 
       <div id="about" class="col-md-12 section-box">
         <div class="row">
-          <div class="col-md-4">
-            <img src="./resource/img/pic/ch_img_miku.png" />
-          </div>
           <div class="col-md-8">
             <h2 class="title font-Orbitron">
               About
@@ -170,6 +194,9 @@
             </p>
             </a>
           </div>
+          <div class="col-md-4">
+            <img src="./resource/img/pic/ch_img_miku.png" />
+          </div>
         </div>
         <div class="row">
           <div class="col-md-12">
@@ -183,8 +210,36 @@
 
       <div id="live" class="col-md-12 section-box">
         <div class="row">
-          <div class="col-md-8">
-            <h2 class="title font-Orbitron">
+          <!-- mobile only -->
+          <h2 class="title font-Orbitron hidden-lg hidden-md col-md-12 col-sm-12">
+            Live
+          </h2>
+        </div>
+
+        <div class="row">
+          <div class="col-md-8 hidden-sm hidden-xs">
+            <!-- PC only -->
+            <h2 class="title font-Orbitron ">
+              Live
+            </h2>
+            <h3>
+              マジカルLiSA2017
+            </h3>
+            <div class="text">
+              日程：７月３日（月）<br />
+              時間：SATRT １５時３０分<br />
+              会場：視聴覚室<br />
+            </div>
+            <a href="./live.html"><p class="more text-right">
+              詳細はこちら <span class="glyphicon glyphicon-arrow-right"></span>
+              </p>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <img src="./resource/img/pic/soon.png" />
+          </div>
+          <div class="col-md-8 hidden-lg hidden-md">
+            <h2 class="title font-Orbitron hidden-md hidden-xs">
               Live
             </h2>
             <h3>
@@ -199,9 +254,6 @@
               詳細はこちら <span class="glyphicon glyphicon-arrow-right"></span>
             </p>
           </a>
-          </div>
-          <div class="col-md-4">
-            <img src="./resource/img/pic/soon.png" />
           </div>
         </div>
       </div>
@@ -230,7 +282,7 @@
             </div>
           </div>
         </div>
-<a href="./gallery/html">
+        <a href="./gallery.html">
         <p class="more text-right">
           もっと見る <span class="glyphicon glyphicon-arrow-right"></span>
         </p>
@@ -249,14 +301,14 @@
         </div>
         <div id="links">
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4 col-xs-4">
               <a href="https://twitter.com/Magical_LiSA_"><img src="./resource/img/icon/twitter-color.svg" alt="Twitter" class="img-responsive"/></a>
             </div>
-            <div class="col-md-4">
-              <a href=""><img src="./resource/img/icon/youtube-color.svg" alt="Youtube" class="img-responsive"/></a>
+            <div class="col-md-4 col-sm-4 col-xs-4">
+              <a href=""><img src="./resource/img/icon/youtube-red-soon.svg" alt="Youtube" class="img-responsive"/></a>
             </div>
-            <div class="col-md-4">
-              <a href=""><img src="./resource/img/icon/niconico.svg" alt="Niconico"  class="img-responsive"/></a>
+            <div class="col-md-4 col-sm-4 col-xs-4">
+              <a href=""><img src="./resource/img/icon/niconico-black-soon.svg" alt="Niconico"  class="img-responsive"/></a>
             </div>
           </div>
         </div>
