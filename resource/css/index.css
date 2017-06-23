@@ -1,0 +1,36 @@
+h2.title{
+  font-size: 5em;
+  /*border-bottom: 2px solid black;*/
+  margin-bottom: 1em;
+}
+ h3{
+  font-weight: bold;
+}
+
+ .text{
+  margin-top: 20px;
+  font-size: 1.4em;
+  margin-left: 3em;
+}
+#about .credit{
+  font-size: 1.1em;
+  color: rgba(0, 0, 0, 0.63);
+}
+
+#links img{
+  width: 100%;
+}
+
+
+
+.more{
+  /*margin-top: 3em;*/
+  font-size: 1.4em;
+  line-height: 2em;
+  color: rgb(39, 128, 165);
+}
+
+
+.bx-wrapper .bx-controls-direction a{
+  z-index: 4!important;
+}
