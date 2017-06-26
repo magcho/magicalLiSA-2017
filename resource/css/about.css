@@ -15,9 +15,12 @@
   padding-bottom: 3em;
   border-bottom: solid 5px #e7e0e0;
 }
-.staff-box:last-child{
-  border:none;
-}
 .font-mplus1p {
   font-family: "Mplus 1p";
+}
+
+@media screen and (min-width: 991px) {
+  .staff-box{
+    border: none;
+  }
 }
