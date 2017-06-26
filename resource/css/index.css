@@ -7,10 +7,9 @@ h2.title{
   font-weight: bold;
 }
 
- .text{
+.text{
   margin-top: 20px;
   font-size: 1.4em;
-  margin-left: 3em;
 }
 #about .credit{
   font-size: 1.1em;
@@ -21,6 +20,19 @@ h2.title{
   width: 100%;
 }
 
+table a{
+  color: black;
+  display: block;
+  height: 100%;
+  width: 100%
+}
+#main-visual-img{
+  margin-top: 0px;
+  height: 300px;
+}
+#live-title{
+  font-size: 3em;
+}
 
 
 .more{
