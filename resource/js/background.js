@@ -49,6 +49,6 @@ $(function(){
       count = 1
     }
     count++;
-    console.info(randLeft,randTop);
+    // console.info(randLeft,randTop);
   }, 300);
 });

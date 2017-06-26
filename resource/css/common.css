@@ -27,10 +27,22 @@
 .font-roboto{
   font-family: 'Roboto', sans-serif;
 }
+.font-bold{
+  font-weight: bolder;
+}
+.font-light{
+  font-weight: lighter;
+}
 
 
 /*style*/
-
+p{
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+footer p{
+  font-size: 1em;
+}
 
 header{
   z-index: 1;
@@ -124,6 +136,7 @@ header{
 /**********************************************************/
 #main-contents-area{
   background: rgba(0, 0, 0, 0.05);
+  padding-bottom: 30px;
 }
 #main-contents-area .section-box{
   box-sizing: border-box;
@@ -215,9 +228,23 @@ header{
 
 
 
+
 footer{
   background: rgb(115, 115, 115);
   text-align: center;
+  margin-bottom: 0px;
+  padding-top: 20px;
+}
+footer h2,
+footer p{
+  font-weight: lighter;
+}
+footer h2:first-child{
+  padding-top: 0px;
+  margin-top: 0px;
+}
+footer p:last-child{
+  padding-bottom: 0px;
   margin-bottom: 0px;
 }
 
