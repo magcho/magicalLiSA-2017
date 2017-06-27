@@ -1,0 +1,14 @@
+.count_down{
+  font-size: 3em;
+  font-weight: bold;
+  padding-top:300px;
+  padding-bottom: 300px;
+}
+.j{
+  color: #82d5d5
+}
+h2{
+  color: black;
+  display: inline;
+  word-wrap: break-word;
+}
