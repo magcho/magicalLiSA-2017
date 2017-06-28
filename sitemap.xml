@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+<!--  created with free sitemap generation system www.sitemapxml.jp  --> 
+<url>
+  <loc>http://magical-lisa2017.com/</loc>
+  <priority>1.0</priority>
+  <lastmod>2017-06-27T23:38:41+09:00</lastmod>
+</url>
+<url>
+  <loc>http://magical-lisa2017.com/news.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2017-06-27T23:38:41+09:00</lastmod>
+</url>
+<url>
+  <loc>http://magical-lisa2017.com/about.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2017-06-27T23:38:41+09:00</lastmod>
+</url>
+<url>
+  <loc>http://magical-lisa2017.com/live.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2017-06-27T23:38:41+09:00</lastmod>
+</url>
+<url>
+  <loc>http://magical-lisa2017.com/gallery.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2017-06-27T23:38:41+09:00</lastmod>
+</url>
+<url>
+  <loc>http://magical-lisa2017.com/count.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2017-06-27T23:38:41+09:00</lastmod>
+</url>
+
+</urlset>
