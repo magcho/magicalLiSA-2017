@@ -19,7 +19,9 @@ h2.title{
 #links img{
   width: 100%;
 }
-
+table{
+  font-size: 1.4em;
+}
 table a{
   color: black;
   display: block;
