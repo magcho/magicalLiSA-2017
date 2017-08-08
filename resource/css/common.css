@@ -148,7 +148,7 @@ header{
 }
 #main-contents-area  .title{
   box-sizing: border-box;
-  height: 50px;
+  min-height: 50px;
   /*border: solid 1px black;*/
   /*font-size: 3em;*/
 }
