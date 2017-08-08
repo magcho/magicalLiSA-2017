@@ -1,4 +1,4 @@
-<div class="col-md-10 col-md-offset-1 section-box news-body">
+<div id="news99" class="col-md-10 col-md-offset-1 section-box news-body">
   <div class="row">
     <h2 class="title col-md-10">ニュース記事のタイトル</h2>
     <p class="date col-md-2 text-right">2017,12/12</p>
@@ -15,7 +15,7 @@
     </p>
   </div>
 </div><!-- section-box close -->
-<div class="col-md-10 col-md-offset-1 section-box news-body">
+<div id="news99" class="col-md-10 col-md-offset-1 section-box news-body">
   <div class="row">
     <h2 class="title col-md-10">写真とニュース記事のタイトル</h2>
     <p class="date col-md-2 text-right">2017,12/12</p>
@@ -33,7 +33,7 @@
     <img src="./resource/img/img.png" class="img-responsive col-md-4" />
   </div>
 </div><!-- section-box close -->
-<div class="col-md-10 col-md-offset-1 section-box news-body">
+<div id="news99" class="col-md-10 col-md-offset-1 section-box news-body">
   <div class="row">
     <h2 class="title col-md-10">写真とニュース記事のタイトル</h2>
     <p class="date col-md-2 text-right">2017,12/12</p>

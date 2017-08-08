@@ -6,6 +6,12 @@ p{
   font-size: 1.3em;
   line-height: 1.5em;
 }
+#reqest_link_button{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 2em;
+}
+
 
 /**/
 #niconico-iframe{
